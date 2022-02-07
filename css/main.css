@@ -316,6 +316,7 @@ footer{
     z-index: 0;
     min-height: 330x;
     background-color: black;
+    display: flex;
 }
 
 footer::after{
