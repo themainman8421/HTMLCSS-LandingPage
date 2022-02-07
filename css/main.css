@@ -157,10 +157,10 @@ section{
 }
 
 .hero{
-    background-image: url("hero.jpg");
+    background-image: url("../img/hero.jpg");
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 
@@ -173,7 +173,7 @@ section{
     color: #faa541;
 }
 
-.hero h1 h2{
+.hero h1, .hero h2{
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
@@ -195,7 +195,7 @@ section{
 }
 
 .banner img{
-    width: 25px;
+    width: 250px;
 }
 
 .banner-text{
@@ -206,7 +206,7 @@ section{
     text-align: center;
 }
 
-.banner-text:last-child{
+.banner-text > div:last-child{
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -228,7 +228,7 @@ section{
     text-align: center;
 }
 
-.category-text:nth-child(){
+.category-text > div{
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
