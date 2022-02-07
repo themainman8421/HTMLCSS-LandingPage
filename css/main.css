@@ -331,11 +331,9 @@ footer:after{
     z-index: -1;
 }
 
-.lists{
-    flex: 0 0 75%;
-    left: 15px;
-    right: 15px;
-    padding: 40px 0;
+.lists { 
+    flex: 0 0 75%; 
+    padding: 40px 15px; 
 }
 
 .link-header{
